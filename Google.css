@@ -1,0 +1,15 @@
+#Logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+}
+
+#inputBlock {
+    display: block;
+    text-align: center;
+}
+
+.find {
+    margin-top: 5px;
+}
