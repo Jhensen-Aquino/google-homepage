@@ -1,8 +1,7 @@
 #Logo {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: auto;
+    text-align: -webkit-center;
+    margin-top: 12em;
+    position: relative;
 }
 
 #inputBlock {
@@ -10,6 +9,50 @@
     text-align: center;
 }
 
+#inputBlock form input {
+    margin-top: 20px;
+}
+
 .find {
     margin-top: 5px;
+}
+
+.NavBar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+.nav-leftSide {
+    float: left;
+    margin: 5px;
+}
+
+.nav-rightSide {
+    float: right;
+    margin: 5px;
+}
+
+.FooterBar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-leftSide {
+    float: left;
+    margin: 5px;  
+}
+
+.footer-rightSide {
+    float: right;
+    margin: 5px;
+}
+
+.FooterBar {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
 }
